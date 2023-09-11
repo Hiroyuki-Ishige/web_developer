@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* apply to all elements*/
+h1, h2{
+    color:blueviolet;
+}
+
+/* We can do this only DIRECT child selector*/
+.box > p {
+    color: firebrick;
+}
+
+/* We can apply only for parent and MORE THAN 1 child selector*/
+.box li{
+    color:blue;
+}
+
+/* Chaining: apply to a combination of selectors */
+li.done{
+    color:seagreen;
+}
+
+/*Combining selector and Chaining/
+
+ul p.done{
+    font-size: 0.5rem;
+}
