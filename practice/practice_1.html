@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practice</title>
+    <style>
+      .container{
+        border: 10px solid blue;
+        height: 100vh;
+        display:grid;
+        gap:3rem;
+        grid-template-columns: 1fr 1fr 1.5fr;
+        grid-template-rows: 1fr 1fr;
+      }
+
+      .item{
+          font-size: 3rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          border: 10px solid black;
+      }
+
+      .container .cowboy{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+      }
+
+    </style>
+
+</head>
+<body>
+
+<div class ="container">
+  <div class="item cowboy">
+    <p>🤠</p>
+    <p>🤠</p>
+    <p>🤠</p>
+    <p>🤠</p>
+    <p>🤠</p>
+  </div>
+  <div class="item astronaut">🧑🏻‍🚀</div>
+  <div class="item book">📖</div>
+<!--  <div class="item book_2"></div>-->
+
+</div>
+
+</body>
+</html>
