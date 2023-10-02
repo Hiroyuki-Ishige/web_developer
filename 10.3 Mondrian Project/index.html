@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container{
+      display: grid;
+      grid-template-rows: 423px 150px 164px 20px;
+      grid-template-columns: 329px 207px 162px 50px;
+
+      /*gap:9px;*/
+
+
+    }
+
+    .tile_1{
+      background-color: #E72F24;
+      border-bottom: 9px solid #232629;
+      border-right: 9px solid #232629;
+
+      /*width: 320px;*/
+      /*height: 414px;*/
+
+    }
+
+    .tile_2{
+      background-color: #F0F1EC;
+      border-bottom: 9px solid #232629;
+      grid-column:span 3;
+    }
+
+    .tile_3 {
+      background-color: #F0F1EC;
+      border-bottom: 9px solid #232629;
+      border-right: 9px solid #232629;
+      grid-row: span 2;
+    }
+
+    .tile_4 {
+      background-color: #F0F1EC;
+      border-bottom: 9px solid #232629;
+      border-right: 9px solid #232629;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+
+    .tile_5{
+      background-color: #004592;
+      border-bottom: 19px solid #232629;
+    }
+
+    .tile_6{
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      /*border-left: 9px solid #232629;*/
+    }
+
+    .tile_7{
+      background-color: #F0F1EC;
+      border-right: 9px solid #232629;
+    }
+
+    .tile_8{
+      background-color: #F9D01E;
+      border-right: 9px solid #232629;
+    }
+
+    .tile_9{
+      background-color: gray;
+      border-right: 9px solid #232629;
+    }
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+
+ <div class ="container">
+   <div class = "tile_1"></div>
+   <div class = "tile_2"></div>
+   <div class = "tile_3"></div>
+   <div class = "tile_4"></div>
+   <div class = "tile_5"></div>
+   <div class = "tile_6"></div>
+   <div class = "tile_7"></div>
+   <div class = "tile_8"></div>
+   <div class = "tile_9"></div>
+
+ </div>
+</body>
+
+</html>
