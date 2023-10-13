@@ -28,16 +28,15 @@
 }
 
 /* from here add myself*/
-
-.flex-container {
+.title-row{
     display: flex;
-    /*align-items: center;*/
     justify-content: center;
 }
 
 .title-item {
     display: flex;
     align-items: center;
+    justify-content: center;
     align-content: center;
     flex-flow: wrap;
 }
@@ -61,6 +60,12 @@
     justify-content: center;
     margin-top: 5rem;
 }
+
+.test-logo{
+    margin-top:1rem;
+}
+
+
 
 .black {
     background-color: black;
