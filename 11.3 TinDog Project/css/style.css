@@ -47,9 +47,10 @@
     padding-top: 30px;
 }
 
+/*Logo in features*/
 .ft {
-    background-color: #B9B4C7;
-    border-radius: 10%;
+    background-color: #00000008;
+    border-radius: 20%;
 }
 
 .ft-item {
@@ -61,10 +62,35 @@
     margin-top: 5rem;
 }
 
+/*Testimonial*/
+#testimonial .container{
+    margin-top: 5rem;
+}
+
 .test-logo{
     margin-top:1rem;
 }
 
+/* Pricing*/
+
+#pricing .container{
+    margin-top: 5rem;
+}
+
+.mastiff-card-head{
+    background: #212529;
+    color: white;
+}
+
+/*Footer*/
+#footer .container .row{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color: black;
+}
 
 
 .black {
